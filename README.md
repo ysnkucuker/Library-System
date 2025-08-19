@@ -35,3 +35,4 @@ uvicorn api:app --reload
 
 [FastAPI Dokümantasyonu](http://127.0.0.1:8000/docs) adresinden (http://127.0.0.1:8000/docs) girdiğiniz isbn kodu ile get put ve delete işlemlerini gerçekleştirebilirsiniz.
 
+http://127.0.0.1:8000/books adresinden de put ile kaydetmiş olduğunuz kitapları json formatında görebilirsiniz.
