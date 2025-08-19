@@ -3,7 +3,7 @@ import os
 from book import Book
 
 class Library:
-    def __init__(self, filename="OOP/library.json"):
+    def __init__(self, filename="library.json"):
         self.filename = filename
         self.books = []
         self.load_books()

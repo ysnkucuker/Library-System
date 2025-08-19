@@ -13,8 +13,14 @@ class Library:
     def load_books(self):
         if os.path.exists(self.filename):
             with open(self.filename, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                self.books = [Book(**book) for book in data]
+                try:
+                    data = json.load(f)
+                    self.books = [Book(**book_data) for book_data in data]
+                except json.JSONDecodeError:
+                    # Dosya boş veya geçersiz JSON ise boş liste kullan
+                    self.books = []
+        else:
+            self.books = []
 
     def save_books(self):
         with open(self.filename, "w", encoding="utf-8") as f:
