@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Gösteri Peygamberi",
+        "author": "Chuck Palahnik",
+        "isbn": "456465465"
+    },
+
+  {
+        "title": "Sefiller",
+        "author": "Victor Hugo",
+        "isbn": "22222"
+    },
+  {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "67890"
+    },
+  {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "isbn": "11111"
+    }
+]
