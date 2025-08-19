@@ -33,5 +33,5 @@ Verileri ister konsol ekranında ekleyip listeleyebilir, isterseniz silebilirsin
 
 uvicorn api:app --reload
 
-[FastAPI Dokümantasyonu](http://127.0.0.1:8000/docs) adresinden girdiğiniz isbn kodu ile get put ve delete işlemlerini gerçekleştirebilirsiniz.
+[FastAPI Dokümantasyonu](http://127.0.0.1:8000/docs) adresinden (http://127.0.0.1:8000/docs) girdiğiniz isbn kodu ile get put ve delete işlemlerini gerçekleştirebilirsiniz.
 
