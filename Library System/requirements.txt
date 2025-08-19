@@ -1,2 +1,5 @@
 httpx
 pytest
+fastapi
+uvicorn
+pydantic
